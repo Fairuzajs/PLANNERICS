@@ -9,8 +9,9 @@
 </head>
 
 <body>
-	<div class="container">
-		<header>
+
+	<header>
+		<div class="container">
 			<div class="header">
 				<div class="logo">
 					<img class="logo__img" src="img/logo.svg" alt="logo">
@@ -35,8 +36,11 @@
 				</nav>
 				<a href="#" class="btn">Заказать проект</a>
 			</div>
-		</header>
-		<main>
+		</div>
+
+	</header>
+	<main>
+		<div class="container">
 			<div class="hero">
 				<div class="hero__text">
 					<div class="express">
@@ -189,10 +193,10 @@
 						<div class="realisation__card">
 							<img src="img/realisation1.png" alt="number img">
 							<h3 class="title-h3">Создание заказа на подготовку
-							экспресс дизайн-проекта</h3>
+								экспресс дизайн-проекта</h3>
 							<p class="paragraph">Загрузите планировку квартиры/дома,<br>
-							укажите адрес, электронную почту<br>
-							и оплатите заказ</p>
+								укажите адрес, электронную почту<br>
+								и оплатите заказ</p>
 						</div>
 					</div>
 					<div class="realisation-card">
@@ -202,10 +206,12 @@
 						<div class="realisation__card">
 							<img src="img/realisation2.png" alt="number img">
 							<h3 class="title-h3">
-							Генерация дизайн-проекта
-						</h3>
-							<p class="paragraph">Робот-дизайнер проанализирует<br> планировку и сгенерируетдизайн-концепции для каждого помещения в четырёх интерьерных<br>
-							стилях: подберёт отделочные материалы, расставит <br>мебель, технику, декор и сформирует смету</p>
+								Генерация дизайн-проекта
+							</h3>
+							<p class="paragraph">Робот-дизайнер проанализирует<br> планировку и сгенерируетдизайн-концепции для
+								каждого помещения в четырёх интерьерных<br>
+								стилях: подберёт отделочные материалы, расставит <br>мебель, технику, декор и сформирует смету
+							</p>
 						</div>
 					</div>
 					<div class="realisation-card">
@@ -215,11 +221,12 @@
 						<div class="realisation__card">
 							<img src="img/realisation3.png" alt="number img">
 							<h3 class="title-h3">
-										Получение дизайн-проекта
+								Получение дизайн-проекта
 							</h3>
 							<p class="paragraph">
-						
-								На электронную почту, указанную в заказе, придёт ссылка настраницу, где будут<br> представлены в себе готовые варианты
+
+								На электронную почту, указанную в заказе, придёт ссылка настраницу, где будут<br> представлены в
+								себе готовые варианты
 								дизайн-концепций интерьера, 3D-модели и сметы - <br>
 								<a href="">посмотреть пример</a>
 							</p>
@@ -233,13 +240,46 @@
 				<h2 class="title-h2">
 					Заказать дизайн проект
 				</h2>
+				<div class="form">
+					<form action="post">
+						<div class="form-file">
+							<p class="form-file__p_small">Загрузите до 4 фото планировки</p>
+							<p class="form-file__p_main">
+								<img src="img/file-input.svg" alt="input icon">
+								<span>Выберите</span>
+								или перетащите фото сюда
+							</p>
+							<p class="small-text">1 файл до 10 МБ — jpeg, png</p>
+							<div class="form-file__input">
+								<input class="file-input" type="file" name="" id="">
+								<input class="file-input" type="file" name="" id="">
+								<input class="file-input" type="file" name="" id="">
+								<input class="file-input" type="file" name="" id="">
+							</div>
+							
+						</div>
+						<div class="input">
+							<input type="text" name="address" id="address" placeholder="Адрес">
+							<input type="text" name="email" id="email" placeholder="Электронная почта">
+						</div>
+						<div class="checkbox">
+
+							<a href="#OPD">Согласие на обработку персональных данных</a>
+						</div>
+
+
+					</form>
+				</div>
 
 			</div>
-		</main>
-		<footer>
+		</div>
+
+	</main>
+	<footer>
+		<div class="container">
 			<div class="footer">
 				<div class="logo">
-					<img class="logo__img" src="img/logo.svg" alt="logo">
+					<img class="logo__img" src="img/logo-footer.svg" alt="logo">
 					<div class="logo__name">
 						<div class="logo__name_main">
 							<span>Своё</span>
@@ -253,8 +293,7 @@
 				</div>
 				<p>© 2000-2023 АО «Россельхозбанк». Генеральная лицензия Банка России № 3349 от 12 августа 2015</p>
 			</div>
-		</footer>
-	</div>
+		</div>
 </body>
 
 </html>
