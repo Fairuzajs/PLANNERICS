@@ -175,10 +175,13 @@ background: var(--green-default);
 	border-radius: 12px;
 background: #F0FCE8;
 padding: 8px 12px;
-width: 118px;
-margin-bottom: 16px;
+
 }
 
+.hero .express {
+	margin-bottom: 16px;
+	width: 118px;
+}
 .express span {
 color: var(--green-default);
 text-align: center;
@@ -324,4 +327,6 @@ font-style: normal;
 font-weight: 600;
 line-height: 40px; /* 111.111% */
 }
+
+/* DESIGN */
 
