@@ -222,3 +222,10 @@ line-height: 20px;
 }
 
 /* step */
+
+.step {
+	padding: 48px 80px;
+	border-radius: 60px;
+	background-color: var(--color-white);
+	
+}
