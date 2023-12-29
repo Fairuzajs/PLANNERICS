@@ -44,7 +44,8 @@ body {
 	justify-content: space-between;
 	padding: 16px 80px;
 	background: var(--color-white);
-border-radius: 60px;
+border-radius: 32px;
+margin-bottom: 10px;
 }
 
 /* LOGO */
@@ -159,6 +160,11 @@ background: var(--green-default);
 .hero {
 	padding: 48px 80px;
 	border-radius: 60px;
+	background: var(--color-white);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
 }
 
 .express {
@@ -168,7 +174,8 @@ background: var(--green-default);
 	border-radius: 12px;
 background: #F0FCE8;
 padding: 8px 12px;
-
+width: 118px;
+margin-bottom: 16px;
 }
 
 .express span {
@@ -184,12 +191,13 @@ text-transform: lowercase;
 }
 
 .title {
-	color: var(--dark-text);
+color: var(--dark-text);
 font-family: var(--ff-golos);
 font-size: 48px;
 font-style: normal;
 font-weight: 700;
-line-height: 56px; /* 116.667% */
+line-height: 56px;
+margin-bottom: 24px; /* 116.667% */
 }
 
 .about {
@@ -198,9 +206,17 @@ font-family: var(--ff-golos);
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
-line-height: 20px; /* 142.857% */
+line-height: 20px; 
+/* 142.857% */
 }
 
 .hero__text .btn {
 	width: 150px;
+	margin-top: 32px;
+}
+
+.hero__text {
+	display: flex;
+	flex-direction: column;
+	max-width: 630px;
 }
