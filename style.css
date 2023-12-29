@@ -1,0 +1,206 @@
+* {
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1440px;
+}
+
+a {
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+
+:root {
+	--green-default: #42ab44;
+	--grey-color-main: #a5a5a5;
+	--dark-text: #2a2e2a;
+	--black-color: #1c1c1c;
+	--bright-green: #5dcb5f;
+	--grey-color: #969696;
+	--ff-golos: "Golos Text", sans-serif;
+	--ff-ubuntu: "Ubuntu", sans-serif;
+	--transition: all 0.7s;
+	--color-white: #ffffff;
+	--background:  #F9F9F9;
+}
+
+body {
+	background: var(--background);
+}
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap");
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 16px 80px;
+	background: var(--color-white);
+border-radius: 60px;
+}
+
+/* LOGO */
+.logo__img {
+	width: 40px;
+	height: 40px;
+}
+
+.logo__name {
+	display: flex;
+	flex-direction: column;
+	gap: 4.5px;
+	align-items: center;
+}
+
+.logo__name_descr {
+	color: var(--grey-color);
+	font-family: var(--ff-ubuntu);
+	font-size: 9px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 11px;
+	letter-spacing: 1px;
+}
+
+.logo__name_main span:first-child {
+	color: var(--black-color);
+	font-family: var(--ff-ubuntu);
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: -0.2px;
+}
+
+.logo__name_main span:nth-child(2) {
+	display: inline-block;
+	content: "";
+	width: 20px;
+	height: 1px;
+	transform: rotate(90deg);
+	background: var(--grey-color);
+}
+
+.logo__name_main span:last-child {
+	color: var(--black-color);
+	font-family: var(--ff-ubuntu);
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	letter-spacing: -0.2px;
+}
+
+.logo__name_main {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+/* MENU NAV  */
+
+.menu__container {
+	display: flex;
+	align-items: center;
+	gap: 26px;
+}
+
+.menu__link {
+	color: var(--grey-color-main);
+	font-family: var(--ff-golos);
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 20px;
+	transition: var(--transition);
+}
+
+.menu__link:hover {
+	color: var(--green-default);
+	font-weight: 700;
+	cursor: pointer;
+}
+
+/* button */
+
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+		border-radius: 24px;
+background: var(--green-default);
+   width: 170px;
+	height: 48px;
+	color: var(--color-white);
+	text-align: center;
+	font-family: var(--ff-golos);
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+
+/* HERO BLOCK */
+
+.hero {
+	padding: 48px 80px;
+	border-radius: 60px;
+}
+
+.express {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	border-radius: 12px;
+background: #F0FCE8;
+padding: 8px 12px;
+
+}
+
+.express span {
+color: var(--green-default);
+text-align: center;
+font-family: var(--ff-golos);
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 142.857% */
+letter-spacing: 1px;
+text-transform: lowercase;
+}
+
+.title {
+	color: var(--dark-text);
+font-family: var(--ff-golos);
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 116.667% */
+}
+
+.about {
+	color: var(--grey-color-main);
+font-family: var(--ff-golos);
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+}
+
+.hero__text .btn {
+	width: 150px;
+}
