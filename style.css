@@ -730,7 +730,31 @@ form {
 
 
 .form-block {
-	display: flex;
+	position: relative;
+}
+
+.form-img:first-child {
+	top: -52px;
+	left: -265px;
+	position: absolute;
+}
+
+.form-img:nth-child(2) {
+	top: 223px;
+	left: -236px;
+	position: absolute;
+}
+
+.form-img:nth-child(3) {
+	top: -33px;
+	left: 705px;
+	position: absolute;
+}
+
+.form-img:nth-child(4){ 
+	top: 226px;
+		left: 664px;
+	position: absolute;
 }
 /* input-file */
 
@@ -812,6 +836,9 @@ input[type="file"] {
 	justify-content: space-between;
 }
 
+.file {
+	
+}
 
 /* FOOTER */
 footer {
