@@ -13,6 +13,10 @@
 a {
 	text-decoration: none;
 }
+h1, h2, h3 {
+	margin-block-end: 0;
+	margin-block-start: 0;
+}
 li {
 	list-style-type: none;
 }
@@ -316,8 +320,7 @@ z-index: 10;
 	border-radius: 60px;
 	background-color: #fdfdfd;
 	display: flex;
-   gap: 76px;
-	align-items: center;
+   gap: 80px;
 }
 
 .step-card {
@@ -330,6 +333,7 @@ z-index: 10;
 	display: flex;
 	flex-direction: column;
 	gap: 8px;
+	justify-content: start;
 }
 
 .title-h3 {
@@ -370,7 +374,7 @@ z-index: 10;
 .about__text {
 	display: flex;
 	gap: 32px;
-	max-width: 414px;
+	max-width: 388px;
 	flex-direction: column;
 }
 
@@ -440,8 +444,8 @@ z-index: 10;
 }
 
 .design__header .paragraph {
-	padding-right: 24px;
-	max-width: 498px;
+	padding-right: 64px;
+	max-width: 522px;
 }
 
 .design__header .paragraph span {
@@ -486,6 +490,7 @@ z-index: 10;
 	justify-content: space-between;
 	padding-left: 40px;
 	padding-right: 40px;
+
 	height: 160px;
 	width: 413px;
 }
@@ -493,15 +498,19 @@ z-index: 10;
 /* REALISATION */
 
 .realisation {
-	padding: 60px 80px;
+	padding: 65px 80px 60px 80px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+
+.realisation .paragraph {
+	letter-spacing: 2px;
+}
 .realisation__header {
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	gap: 23px;
 	align-items: center;
 	padding-bottom: 79px;
 }
@@ -530,6 +539,10 @@ z-index: 10;
 
 .realisation__card .paragraph {
 	text-align: center;
+letter-spacing: .1px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
 }
 
 .realisation__card .title-h3 {
@@ -578,7 +591,7 @@ z-index: 10;
 /* FORM */
 
 .feedback {
-	padding: 64px 80px 27px;
+	padding: 69px 80px 27px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
