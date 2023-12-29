@@ -220,3 +220,12 @@ line-height: 20px;
 	flex-direction: column;
 	max-width: 630px;
 }
+
+/* step */
+
+.step {
+	padding: 48px 80px;
+	border-radius: 60px;
+	background-color: var(--color-white);
+	
+}
