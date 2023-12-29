@@ -836,8 +836,40 @@ input[type="file"] {
 	justify-content: space-between;
 }
 
-.file {
-	
+.input-file-list-item {
+padding: 12px;
+border-radius: 16px;
+border: 1px dashed #EBEDF0;
+background: #F8F7F7;
+transition: var(--transition);
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+}
+.input-file-list-item:hover {
+	cursor: pointer;
+border: 1px dashed #42AB44;
+}
+.input-file-list-remove {
+	transition: var(--transition);
+   display: inline-block;
+	width: 16px;
+height: 16px;
+stroke: C9CACC;
+}
+.input-file-list-remove:hover {
+   stroke: #42AB44;
+}
+
+.file-name {
+	color: var(--UI-elements-black, #1C1C1C);
+/* Desktop/UI Title_XXS_regular */
+font-family: var(--ff-ubuntu);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
 }
 
 /* FOOTER */
